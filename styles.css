@@ -1,0 +1,33 @@
+#yt-looper-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 15px;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+#yt-looper-container input {
+  width: 60px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: 1px solid #444;
+  padding: 4px;
+  border-radius: 4px;
+  font-size: 12px;
+  text-align: center;
+}
+
+#yt-looper-container button {
+  background: #cc0000;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#yt-looper-container button.active {
+  background: #0099ff;
+}
